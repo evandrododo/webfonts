@@ -1,4 +1,4 @@
 webfonts
 ========
 
-Webfonts collection, branched by fonts
+Webfonts collection
