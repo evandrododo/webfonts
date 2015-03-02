@@ -2,6 +2,18 @@
 $fontes_json = '
 [
 	{
+		"font" : "alegreyea",
+		"fontFamily": "Alegreya",
+		"fontName": "Alegreya",
+		"fontPath": "http://fonts.googleapis.com/css?family=Alegreya:400,700"
+	},
+	{
+		"font" : "amble",
+		"fontFamily": "\'Amble Regular\',Verdana,serif",
+		"fontName": "Amble Regular",
+		"fontPath": "amble/stylesheet.css"
+	},
+	{
 		"font" : "arial",
 		"fontFamily": "Arial, Verdana, sans-serif",
 		"fontName": "Arial",
@@ -18,6 +30,12 @@ $fontes_json = '
 		"fontFamily": "\'BandaRegularRegular\',Georgia,serif",
 		"fontName": "Banda Regular",
 		"fontPath": "banda_regular/stylesheet.css"
+	},
+	{
+		"font" : "brawler",
+		"fontFamily": "Brawler",
+		"fontName": "Brawler",
+		"fontPath": "http://fonts.googleapis.com/css?family=Brawler:400"
 	},
 	{
 		"font" : "codepro_light",
@@ -50,10 +68,22 @@ $fontes_json = '
 		"fontPath": "http://fonts.googleapis.com/css?family=Inconsolata:400,700"
 	},
 	{
+		"font" : "Rosario",
+		"fontFamily": "\'Rosario\', sans-serif",
+		"fontName": "Rosario",
+		"fontPath": "http://fonts.googleapis.com/css?family=Rosario:400,700"
+	},
+	{
 		"font" : "montserrat",
 		"fontFamily": "\'montserratregular\',Verdana,sans-serif;",
 		"fontName": "Montserrat",
 		"fontPath": "montserrat_regular/stylesheet.css"
+	},
+	{
+		"font" : "open_sans",
+		"fontFamily": "\'Open Sans\',Arial,sans-serif;",
+		"fontName": "Open Sans",
+		"fontPath": "http://fonts.googleapis.com/css?family=Open+Sans:400,700"
 	},
 	{
 		"font" : "quicksand",
@@ -62,10 +92,22 @@ $fontes_json = '
 		"fontPath": "http://fonts.googleapis.com/css?family=Quicksand:400,700"
 	},
 	{
+		"font" : "roboto",
+		"fontFamily": "\'Roboto\', sans-serif",
+		"fontName": "Roboto",
+		"fontPath": "http://fonts.googleapis.com/css?family=Roboto:400,700"
+	},
+	{
 		"font" : "sinkin_sans_regular",
 		"fontFamily": "\'sinkin_sans400_regular\',Georgia,serif",
 		"fontName": "Sinkin Sans",
 		"fontPath": "sinkin_sans_regular/stylesheet.css"
+	},
+	{
+		"font" : "tahoma",
+		"fontFamily": "Tahoma,Georgia,serif",
+		"fontName": "Tahoma",
+		"fontPath": ""
 	},
 	{
 		"font" : "verdana",
