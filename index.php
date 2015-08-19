@@ -146,7 +146,7 @@ $fontes = json_decode($fontes_json);
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 
 		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-		
+
     <style type="text/css">
       .smooth {
         transform: rotate (-0.0000000001deg);
@@ -166,14 +166,14 @@ $fontes = json_decode($fontes_json);
 			h1 { font-size: 5em; padding:0;	margin:0; text-transform: uppercase;}
 			h2 { font-size: 4em; padding:0;	margin:0; }
 			h3 { font-size: 3em; padding:0;	margin:0; }
-			
+
 			#lista-fontes {
 				max-height: 72px;
 				padding:10px;
 				background-color: #23241F;
 				margin-bottom:10px;
 				box-shadow: 0px 0px 5px #555;
-			}	
+			}
 			#pangram-display {
 				padding:20px;
 			}
@@ -189,7 +189,7 @@ $fontes = json_decode($fontes_json);
 				color: #fff;
 				display:none;
 				font-family: 'Inconsolata', sans-serif;
-				font-size:1.8em;
+				font-size:1rem;
 				padding:50px;
 			}
 			#code pre {
@@ -205,7 +205,7 @@ $fontes = json_decode($fontes_json);
 				border: 4px solid #FFF;
 				text-decoration: none;
 			}
-			
+
 			.insert-code {display:none}
 		</style>
 
@@ -223,16 +223,16 @@ $fontes = json_decode($fontes_json);
 				echo "<option value	='$fonte' data-class='$fonte'>$nome</option>";
 			}
 			?>
-		
-		
+
+
 			</select>
-			
+
 			<a class="btn inconsolata" href="#" onclick="getCode()"><b>&lt;&frasl;code&gt;</b></a>
 		</section>
 		<section id="pangram-display" class="arial">
 			<h3>Marta foi à cozinha pois queria ver belo jogo de xícaras</h3>
-			
-			<h1>Foi em Pernambuco que vi</h1>	
+
+			<h1>Foi em Pernambuco que vi</h1>
 			<h2>Jerry Hall degustar kiwi com xerez</h2>
 
 			<p>Grave e cabisbaixo, o filho justo zelava pela querida mãe doente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in consectetur lorem. Pellentesque nec elit vel risus tempor blandit nec sit amet turpis. Nam semper, leo sit amet congue hendrerit, augue purus convallis quam, eu rutrum quam mi eget ligula. Phasellus ornare lacus quis nulla venenatis, id varius nulla ultricies. Nunc tristique quis ante sed lobortis. Donec vehicula mollis ipsum, ut rhoncus risus bibendum ut. In suscipit massa ac urna luctus, suscipit finibus lorem pharetra. Duis tincidunt elementum arcu sit amet laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum massa porttitor diam tempus pharetra. Mauris luctus semper metus, eu egestas nunc tincidunt ac. In rhoncus facilisis auctor.
@@ -242,7 +242,7 @@ Nunc quis auctor risus. Nunc porta pretium leo, vitae tempus erat pretium nec. L
 			<b>Hoje à noite, sem luz, decidi xeretar a quinta gaveta de vovô: achei lingüiça, pão e fubá</b><br>
 			<i>Gazeta publica hoje breve anúncio de faxina na quermesse</i>
 		</section>
-		
+
 		<section id="code">
 		<?php
 			foreach($fontes as $Fonte){
@@ -270,11 +270,11 @@ Nunc quis auctor risus. Nunc porta pretium leo, vitae tempus erat pretium nec. L
 				echo "</div>";
 			}
 		?>
-		
+
 		</section>
 		<script src="plugins/selectinspiration/js/classie.js"></script>
 		<script src="plugins/selectinspiration/js/selectFx.js"></script>
-		
+
 		<script>
 			<?php
 			$nomes = array();
@@ -284,7 +284,7 @@ Nunc quis auctor risus. Nunc porta pretium leo, vitae tempus erat pretium nec. L
 			$classes = implode(" ", $nomes);
 			?>
 			(function() {
-				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
 					new SelectFx(el, {
 						stickyPlaceholder: false,
 						onChange: function(val){
@@ -313,7 +313,7 @@ Nunc quis auctor risus. Nunc porta pretium leo, vitae tempus erat pretium nec. L
 			});
 			hljs.initHighlightingOnLoad();
 		</script>
-		
+
   </body>
 
 </html>
